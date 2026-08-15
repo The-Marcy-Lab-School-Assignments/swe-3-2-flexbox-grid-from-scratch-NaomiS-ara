@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <aside class="sidebar">
+      <h1 class="logo">Spotify</h1>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Search</a></li>
+          <li><a href="#">Your Library</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+
+    <main class="main-content">
+      <header class="top-bar">
+        <h2>Good Afternoon</h2>
+      </header>
+
+
+      <section class="playlist-section">
+        <h3>Recently Played</h3>
+
+        <ul class="playlist-grid">
+          <li class="playlist-card">
+            <div class="card-thumb">♫</div>
+            <p class="card-title">Late Night Drive</p>
+          </li>
+          <li class="playlist-card">
+            <div class="card-thumb">♫</div>
+            <p class="card-title">Sunday Coffee</p>
+          </li>
+          <li class="playlist-card">
+            <div class="card-thumb">♫</div>
+            <p class="card-title">Deep Focus</p>
+          </li>
+          <li class="playlist-card">
+            <div class="card-thumb">♫</div>
+            <p class="card-title">Road Trip Anthems</p>
+          </li>
+          <li class="playlist-card">
+            <div class="card-thumb">♫</div>
+            <p class="card-title">Rainy Day Jazz</p>
+          </li>
+          <li class="playlist-card">
+            <div class="card-thumb">♫</div>
+            <p class="card-title">Workout Pump</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="playlist-section">
+        <h3>Made For You</h3>
+
+        <ul class="playlist-grid">
+          <li class="playlist-card">
+            <div class="card-thumb">♫</div>
+            <p class="card-title">Daily Mix 1</p>
+          </li>
+          <li class="playlist-card">
+            <div class="card-thumb">♫</div>
+            <p class="card-title">Daily Mix 2</p>
+          </li>
+          <li class="playlist-card">
+            <div class="card-thumb">♫</div>
+            <p class="card-title">Discover Weekly</p>
+          </li>
+          <li class="playlist-card">
+            <div class="card-thumb">♫</div>
+            <p class="card-title">Release Radar</p>
+          </li>
+          <li class="playlist-card">
+            <div class="card-thumb">♫</div>
+            <p class="card-title">On Repeat</p>
+          </li>
+          <li class="playlist-card">
+            <div class="card-thumb">♫</div>
+            <p class="card-title">Chill Hits</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+
+    <footer class="player">
+      <div class="now-playing">
+        <div class="card-thumb now-playing-thumb">♫</div>
+        <div class="now-playing-info">
+          <p class="song-title">Amber Skies</p>
+          <p class="song-artist">The Wanderers</p>
+        </div>
+      </div>
+
+      <div class="player-center">
+        <div class="controls">
+          <button aria-label="Previous">⏮</button>
+          <button aria-label="Play or pause">⏯</button>
+          <button aria-label="Next">⏭</button>
+        </div>
+
+        <div class="progress-bar">
+          <span class="time">1:24</span>
+          <div class="progress-track">
+            <div class="progress-fill"></div>
+          </div>
+          <span class="time">3:47</span>
+        </div>
+      </div>
+
+      <div class="volume">
+        <span aria-hidden="true">🔊</span>
+        <input type="range" min="0" max="100" value="70" aria-label="Volume" />
+      </div>
+    </footer>
+  </body>
+</html>
